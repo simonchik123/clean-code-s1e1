@@ -5,28 +5,28 @@ body {
   font-family: lato, sans-serif;
 }
 
-.aaa {
+.prompt {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.prompt img {
   width: 100%;
 }
 
-.aaa .more-inf {
+.prompt .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .prompt {
     text-align: center;
   }
 }
 
-.centered-main-page-element {
+.main-block {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -38,7 +38,7 @@ body {
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.task-to-add {
   display: flex;
 }
 
