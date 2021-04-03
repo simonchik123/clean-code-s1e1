@@ -31,6 +31,7 @@ var createNewTaskElement=function(taskString){
     //button.delete
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
+    deleteButtonImg.setAttribute("alt"," ");  // advanced rule 1.2
 
     label.innerText=taskString;
     label.className='task';
