@@ -19,38 +19,43 @@
     <section id="adding-element-to-list">
       <label for="new-task">Add Item</label>
       <div class="task-to-add">
-        <input id="new-task" class="task" type="text">
+        <input id="new-task" class="list__task" type="text">
         <button>Add</button>
       </div>
     </section>
     <section>
       <h3>Todo</h3>
-      <ul id="uncompleted">
-        <li><input type="checkbox"><label class="task">Pay Bills</label>
-          <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete">
+      <ul class="list" id="uncompleted">
+        <li>
+          <input type="checkbox">
+          <label class="list__task">Pay Bills</label>
+          <input type="text" class="list__task">
+          <button class="list__edit">Edit</button>
+          <button class="list__delete">
             <img src="./remove.svg" alt="">
           </button>
         </li>
         <li class="edit-mode">
           <input type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task">
-          <button class="edit">Save</button>
-          <button class="delete"><img src="./remove.svg" alt="">
+          <label class="list__task">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="list__task">
+          <button class="list__edit">Save</button>
+          <button class="list__delete">
+            <img src="./remove.svg" alt="">
           </button>
         </li>
       </ul>
     </section>
     <section>
       <h3>Completed</h3>
-      <ul id="completed">
-        <li><input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
-          <button class="edit">Edit</button>
-          <button class="delete"><img src="./remove.svg" alt=""></button>
+      <ul class="list" id="completed">
+        <li>
+          <input type="checkbox" checked>
+          <label class="list__task">See the Doctor</label>
+          <input type="text" class="list__task">
+          <button class="list__edit">Edit</button>
+          <button class="list__delete">
+            <img src="./remove.svg" alt=""></button>
         </li>
       </ul>
     </section>

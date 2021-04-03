@@ -32,7 +32,7 @@ body {
   margin: 0 auto 0;
 }
 
-.task {
+.list__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -42,7 +42,7 @@ body {
   display: flex;
 }
 
-ul {
+.list {
   margin: 0;
   padding: 0px;
 }
@@ -140,13 +140,13 @@ li>input[type="text"] {
   width: 226px;
 }
 
-button.delete img {
+button.list__delete img {
   height: 2em;
   transform: rotatez(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+button.list__delete img:hover {
   transform: rotatez(0);
 }
 
