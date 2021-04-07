@@ -152,7 +152,8 @@ button.list__delete img:hover {
 
 /* completed */
 #completed label {
-  text-decoration: line-through color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* edit task */
